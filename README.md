@@ -389,8 +389,8 @@ The figure is quite simple. But there might be tons of issues if the
 architecture is implemented naïvely, such as:
 
 - Storing components contiguously in a local container owned by an entity and storing entities in an array might improve locality, but dramatically reduces the performance of re-allocation.
-- Since the system iterates slices of components over time, the performance would be bad if the components to be iterated doesn't enjoy a good locality.
-- Since the system iterates slices of components over time, the performance would be bad if the system cannot filter wnated components efficiently -- escpecially for systems only concers about a few numbers of slices of components but there are tons of entities.
+- Since systems iterate slices of components over time, the performance would be bad if components to be iterated doesn't enjoy a good locality.
+- Since systems iterate slices of components over time, the performance would be bad if systems cannot filter wnated components efficiently -- escpecially for systems only concers about a few numbers of slices of components but there are tons of entities.
 - Systems can be dispatched concurrently by resolving their dependencies into a directed acyclic graph, but you might miss this optimization point in your implementation.
 - Component slice can be recognized with a bit-string, but such a data structure is not shipped with the standard library, you might also miss the optimization point in your implementation.
 
