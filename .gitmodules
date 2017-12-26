@@ -1,0 +1,3 @@
+[submodule "Frameworks/SwiftExt"]
+	path = Frameworks/SwiftExt
+	url = https://github.com/WeZZard/SwiftExt.git
