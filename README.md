@@ -443,25 +443,25 @@ adjacency list is required. We actually can store systems in an array, and
 represent dependency with the indices in the array. And dispatching
 systems just means iteraing over the array.
 
-### Dispatching Systems
+#### Dispatching Systems
 
 Systems are dispatched in two ways: an implicit way or reactive way. The
 implicit way can still be split into driven by command frame and by user
 event.
 
-#### Command Frame System
+##### Command Frame System
 
 Command frame is driven by the display's refresh rate on Apple platform,
 which is designed for rendering and reading user inputs.
 
-#### User Frame System
+##### User Frame System
 
 User event if driven by the operating system's event loop, which is the
 main thread's run loop on Apple platform. This is designed for preemptive
 multi processs operating system, which mostly have an event loop
 mechanism.
 
-#### Reactive System
+##### Reactive System
 
 The reactive ways are driven by changes done on components.
 
