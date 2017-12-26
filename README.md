@@ -456,14 +456,15 @@ which is designed for rendering and reading user inputs.
 
 ##### User Frame System
 
-User event if driven by the operating system's event loop, which is the
+User event i driven by the operating system's event loop, which is the
 main thread's run loop on Apple platform. This is designed for preemptive
 multi processs operating system, which mostly have an event loop
 mechanism.
 
 ##### Reactive System
 
-The reactive ways are driven by changes done on components.
+The reactive ways are driven by changes done on an instance of a kind of
+component slice, or say, group.
 
 ## What does Swift on ECS do
 
@@ -473,7 +474,7 @@ and dispatched?
 
 These questions are tightly coupled with the characteristics of the Swift
 programming language, and all about the implementation detail. It could be
-helpful if you can review the concept of ECS architecture and some
+helpful if we firstly review the concept of ECS architecture and some
 implementation details about the Swift programming language.
 
 ## The Concept in Depth
@@ -485,7 +486,7 @@ Swift as a Protocol-Oriented programming language, which is also a
 solution to the same big idea.
 
 But we can easily know that the ECS architecture offers another level of
-compositability with a different API granularity than Swift.
+compositability with a different API granularity to Swift.
 
 ### Memory Level
 
@@ -517,8 +518,8 @@ sensitive sub-procedure.
 
 We can imply that such a larger granularity of sub-procedure can have a
 better maintainability than Swift's type extension with the application of
-traditional "Actor Pattern", which increases software's maintainability by
-splitting resiponsibilities of an "actor" but often get developers stuck
+traditional "Actor Pattern", which offers software's maintainability by
+slicing resiponsibilities of an "actor" but often get the developers stuck
 on figuring out how many actors shall be there in a sub-project(I don't
 use the word "subsytem" here because "system" is a terminology in ECS
 world).
