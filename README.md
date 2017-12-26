@@ -1,6 +1,6 @@
 # Swift on ECS - Yet Another Entity-Component-System Framework in Swift
 
-__This framework is not even in prototype stage, most infrastructures are not yet implemented. This README file is also just a manifesto.__
+__This framework is not even in prototype stage, most infrastructures are not yet implemented. This README is more a manifesto than an introduction.__
 
 ## Overview
 [comment]: # (Shall add an overview to smallest use cases of the framework when the project is roughly done.)
