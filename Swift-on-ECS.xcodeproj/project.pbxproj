@@ -336,6 +336,7 @@
 		9CA168241FE8BE0100326FD8 /* _UserEventSystemMetadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _UserEventSystemMetadata.swift; sourceTree = "<group>"; };
 		9CA168291FE8BE0A00326FD8 /* _ReactiveSystemMetadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _ReactiveSystemMetadata.swift; sourceTree = "<group>"; };
 		9CA3A6321FF26E720078C2B8 /* OrderedSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderedSet.swift; sourceTree = "<group>"; };
+		9CA3A6371FF272D40078C2B8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9CA84FD91FD626F800DB03F2 /* _TupleCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _TupleCore.swift; sourceTree = "<group>"; };
 		9CB574E11FCE6DE90031E740 /* ECS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ECS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CB574EA1FCE6DE90031E740 /* Swift-on-ECS-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-on-ECS-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -595,6 +596,7 @@
 		9CB574D51FCE6D900031E740 = {
 			isa = PBXGroup;
 			children = (
+				9CA3A6371FF272D40078C2B8 /* README.md */,
 				9CB5753E1FCE6E350031E740 /* Swift-on-ECS */,
 				9CB575411FCE6E350031E740 /* Swift-on-ECSTests */,
 				9CB574E21FCE6DE90031E740 /* Products */,
