@@ -1,6 +1,6 @@
-# Swift on ECS - Yet Another Entity-Component-System Framework for Swift
-
 ![alt Swift on ECS](PromotionMaterials/banner.png)
+
+# Swift on ECS - Yet Another Entity-Component-System Framework for Swift
 
 __This framework is not even in prototype stage, most infrastructures are not yet implemented. This README is more a manifesto than an introduction.__
 
