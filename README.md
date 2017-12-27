@@ -1,5 +1,7 @@
 # Swift on ECS - Yet Another Entity-Component-System Framework in Swift
 
+![alt Swift on ECS](logo.png)
+
 __This framework is not even in prototype stage, most infrastructures are not yet implemented. This README is more a manifesto than an introduction.__
 
 ## Overview
@@ -8,7 +10,7 @@ __This framework is not even in prototype stage, most infrastructures are not ye
 ## What Is Swift on ECS
 
 Swift on ECS (You can pronouce it as "Swift on X", though the industry
-often pronouce ECS as three separated alphabets, but I think its too
+often pronounce ECS as three separated alphabets, but I think its too
 verbose.) is yet another Entity-Component-System framework written in
 Swift.
 
