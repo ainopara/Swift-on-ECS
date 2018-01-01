@@ -458,7 +458,7 @@ which is designed for rendering and reading user inputs.
 
 ##### User Frame System
 
-User event i driven by the operating system's event loop, which is the
+User event is driven by the operating system's event loop, which is the
 main thread's run loop on Apple platform. This is designed for preemptive
 multi processs operating system, which mostly have an event loop
 mechanism.
