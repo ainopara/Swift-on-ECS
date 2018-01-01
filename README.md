@@ -84,7 +84,7 @@ architecture reduces the complexity of code by examples.
 Consider there are three entities which represent three buttons on a
 mobile device's user interface and contains following components:
 
-- `WiewHierarchy`: Stores the view hierarchy of the button entity.
+- `ViewHierarchy`: Stores the view hierarchy of the button entity.
 - `Geometry`: Stores the button entity's bounds and center.
 - `Touchability`: Stores the button entity's touch-ability
 - `DrawingContext`: Stores the drawing context of the button entity.
